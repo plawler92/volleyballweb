@@ -29,13 +29,57 @@
 	border-color-red;
 }
 
-.full-shot{
-	width: 40%;
-	height: 100%;
-}
-
 .body-background{
 	background: url("../images/beach.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.player-select{
+	height: 100px;
+	width: 700px;
+	margin-top:10px;
+	margin-left: 20%;
+}
+
+.player{
+	display: inline-block;
+	width: 88px;
+	height: 100%;
+	background: url("../images/marvel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bio{
+	width: 58%;
+}
+
+.full-shot{
+	width: 40%;
+}
+
+.bot-list{
+	display: inline-block;
+	height: 100%;
+}
+
+.video{
+	background: url("../images/marvel.jpg");
+	height:49%;
+	width:70%;
+	margin-left: 14%;
+}
+
+.descrip{
+	height: 49%;
+}
+
+.stats{
+	background: url("../images/marvel.jpg");
+	display: inline-block;
+	height: 100%;
+	width: 45%;
+	margin-left: 10px;
+}
+

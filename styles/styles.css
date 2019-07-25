@@ -30,7 +30,7 @@
 }
 
 .body-background{
-	background: url("../images/beach.jpg");
+	background: url("../images/chibeach.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -47,6 +47,30 @@
 	width: 88px;
 	height: 100%;
 	background: url("../images/marvel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mex{
+	background: url("../images/mex-head.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mar{
+	background: url("../images/mar-head.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#john{
+	background: url("../images/john-head.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#steph{
+	background: url("../images/mex-head2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }

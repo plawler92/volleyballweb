@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Test Page</title>
+	<meta name="description" content="the page of tests">
+	<meta name="author" content="plawler">
+
+	<link rel="stylesheet" href="styles/styles2.css">
+
+	<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body class="body-background" onload="firstload()">
+	<div class="player-select ">
+		<div class="player " id="mex"
+			onclick="changePlayer('mex')">
+		</div>
+		<div class="player " id="steph">
+		</div>
+		<div class="player " id="josh">
+		</div>
+		<div class="player " id="lily">
+		</div>
+		<div class="player " id="eli">
+		</div>
+		<div class="player " id="maria">
+		</div>
+		<div class="player " id="john"
+			onclick="changePlayer('john')">
+		</div>
+	</div>
+		<div class="bottom">
+			<div class="portrait-container ">
+					<img id = "portrait" src="images/john-action-test3.png">
+			</div>
+			<div class="info ">
+				<div class="vid">
+					<video width="360" height="270" controls>
+						<source src="videos/test.MP4" type="video/mp4">
+						Your browser doesn't support video tag
+					</video>
+				</div>
+				<div class="stats-container">
+					<div class="stats1">
+						<p id="kill">KILLS: </p>
+						<p id="assist">ASSISTS: </p>
+					</div>
+					<div class="stats2">
+						<p id="dig">DIGS: </p>
+						<p id="ace">ACES: </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

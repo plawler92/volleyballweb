@@ -1,0 +1,110 @@
+.debug{
+	border-style: solid;
+	border-color:gray;
+	border-width: medium
+	border-color-red;
+}
+
+.body-background{
+	background-image:url("../images/chibeach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.player-select{
+	/*overflow: auto;*/	
+	margin-left: 5%;
+	height: 100px;
+	width: 90%;
+}
+
+.player{
+	display: inline-block;
+	height:100px;
+	width:100px;
+	margin-left:1px;
+	margin-right:1px;
+}
+
+#mex{
+	content:url("../images/mex-head.jpg");
+}
+
+#steph{
+	content:url("../images/steph-head.jpg");
+}
+
+#josh{
+	content:url("../images/josh-head.jpg");
+}
+
+#lily{
+	content:url("../images/lily-head.jpg");
+}
+
+#eli{
+
+}
+
+#maria{
+	content:url("../images/mar-head.jpg");
+}
+
+#john{
+	content:url("../images/john-head.jpg");
+}
+
+.john-action{
+	content:url("../images/john-action.jpg");
+}
+
+.john-action2{
+	content:url("../images/john-action-test2.jpg");
+}
+
+.mex-action{
+	content:url("../images/mex-head2.jpg");
+}
+
+.portrait-container{
+	vertical-align: top;
+	display: inline-block;
+	width:600px;
+	height: 500px;
+	margin-top:10px;
+}
+
+#portrait{
+	max-width: 100%;
+	max-height: 100%;
+	float:right;
+}
+
+.info{
+	display: inline-block;
+	vertical-align: top;
+	width:600px;
+	height: 500px;
+	margin-top:10px;
+}
+
+/*.vid{
+	width:600px;
+	height: 500px;
+	vertical-align: top;
+	display: inline-block;
+	border-color: red;
+}*/
+
+.stats1, .stats2{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+}
+
+p{
+	font-family: fantasy;
+	font-weight: bolder;
+	font-size: 30px;
+	color: #ffff00;
+}
